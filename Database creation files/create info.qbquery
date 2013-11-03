@@ -1,0 +1,12 @@
+﻿CREATE TABLE `info` (
+  `roll_num` char(8) NOT NULL,
+  `name` varchar(40) NOT NULL,
+  `address` varchar(500) NOT NULL,
+  `email_id` varchar(50) NOT NULL,
+  `branch` char(8) NOT NULL,
+  `mobile` char(10) NOT NULL,
+  `photo` longblob,
+  `year` int(4) NOT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`roll_num`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

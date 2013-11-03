@@ -1,0 +1,6 @@
+﻿'info_people', 'CREATE TABLE `info_people` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `emailid` varchar(40) NOT NULL,
+  `query` varchar(500) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1'

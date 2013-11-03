@@ -1,0 +1,12 @@
+﻿select * from info;
+alter table info add password varchar(20);
+drop table homenotice;
+create table homenotice
+(
+  id int auto_increment not null,
+  date varchar(20) ,
+  title varchar(20) not null,
+  short_desc varchar(25) not null,
+  long_desc  varchar(500) not null,
+  primary key(id)
+);

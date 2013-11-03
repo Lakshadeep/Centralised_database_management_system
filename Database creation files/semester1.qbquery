@@ -1,0 +1,22 @@
+﻿select * from tbl_login;
+insert into tbl_login(name,password,username) values('admin','admin','admin');
+create table semester1
+(
+
+
+
+
+);
+CREATE TABLE semester1 (
+  roll_num char(8) NOT NULL,
+  physics varchar(4) NOT NULL,
+  chemistry varchar(4) NOT NULL,
+  maths1 varchar(4) not null,
+  eng_mech varchar(4) not null,
+  workshop varchar(4) not null,
+  cprog  varchar(4) not null,
+  cproglab varchar(4) not null,
+
+
+  PRIMARY KEY (roll_num)
+) ENGINE=innodb DEFAULT CHARSET=latin1;

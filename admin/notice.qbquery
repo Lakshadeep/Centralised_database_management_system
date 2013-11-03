@@ -1,0 +1,24 @@
+﻿select * from tbl_login;
+insert into tbl_login(name,password,username) values('admin','admin','admin');
+create table semester1
+(
+
+
+
+
+);
+CREATE TABLE notice (
+  roll_num char(8) NOT NULL,
+  branch char(3) not null,
+   year int(4) not null,
+  1st varchar(500) ,
+  2nd varchar(500) ,
+  3rd varchar(500),
+  4th varchar(500) ,
+  5th varchar(500) ,
+  6th  varchar(500) ,
+  7th varchar(500) ,
+
+
+  PRIMARY KEY (roll_num)
+) ENGINE=innodb DEFAULT CHARSET=latin1;

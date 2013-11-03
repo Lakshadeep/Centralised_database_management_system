@@ -1,0 +1,9 @@
+﻿ CREATE TABLE `messages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `date` date NOT NULL,
+  `title` varchar(20) NOT NULL,
+  `year` varchar(6) ,
+  `long_desc` varchar(500) NOT NULL,
+  `roll_num` varchar(10),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1

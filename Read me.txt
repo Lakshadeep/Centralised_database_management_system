@@ -1,0 +1,7 @@
+Please install the database before running the  application for first time
+
+Student can register online only after their information have beeen added 
+to the database by admin
+
+Admin username:admin
+Admin password:admin  

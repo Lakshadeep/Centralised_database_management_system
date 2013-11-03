@@ -1,0 +1,10 @@
+﻿
+CREATE TABLE `homenotice` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `date` varchar(20) NOT NULL,
+  `title` varchar(20) NOT NULL,
+  `short_desc` varchar(25) NOT NULL,
+  `long_desc` varchar(500) NOT NULL,
+  `category` varchar(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1
